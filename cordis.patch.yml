@@ -8,4 +8,4 @@
 # No manual profile edits needed — one command installs and mounts.
 - insert:
     - id: dsh-simple-pin
-      name: 'dsh-simple-pin'
+      name: '@phuongncn/dsh-simple-pin'
