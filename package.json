@@ -1,0 +1,30 @@
+{
+  "name": "@phuongncn/dsh-simple-pin",
+  "version": "1.0.0",
+  "description": "Pin workspace/session rows to the top of the DSH Web sidebar via the native \"…\" menu. No extra buttons, no bloat — one small host plugin.",
+  "type": "module",
+  "main": "dsh-simple-pin.mjs",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "dsh-simple-pin.mjs",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "sidebar",
+    "pin"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phuongncn/dsh-simple-pin"
+  }
+}

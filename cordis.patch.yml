@@ -1,0 +1,11 @@
+# dsh-simple-pin bundle patch
+#
+# Applied when this package is listed in `dsh.profile.bundles`:
+#
+#   dsh plugin --profile web add @phuongncn/dsh-simple-pin
+#
+# The host loader imports dsh-simple-pin.mjs as a Cordis plugin and mounts it.
+# No manual profile edits needed — one command installs and mounts.
+- insert:
+    - id: dsh-simple-pin
+      name: 'dsh-simple-pin'
