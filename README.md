@@ -4,6 +4,8 @@ Pin workspace / session rows to the **top** of the DSH Web sidebar — via the
 native **"…"** menu of each row. No extra icon buttons, no settings panel, no
 bloat. One small host plugin that does exactly one thing.
 
+![Pinned sidebar — 5TORCHES and DUONGKHANH floated to the top with 📌 markers](https://raw.githubusercontent.com/phuongncn/dsh-simple-pin/main/assets/sidebar.png)
+
 ## Why "simple"
 
 Most sidebar-pin plugins add their own UI (floating buttons, new panels, config
